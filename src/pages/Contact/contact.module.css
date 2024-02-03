@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Orbitron:wght@600&family=Roboto+Mono&display=swap');
+
+.full {
+    min-height: 100vh;
+    background-color: #F9F6EB;
+}
+
+.main {
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: row;
+    padding: 0% 4% 1% 4% ;
+    justify-content: space-between;
+    background-image: url("/letterbox.svg");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    min-height: 300px;
+}
+
+.title{
+    color: #201909;
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 600;
+    font-size: 40px;
+    font-style: normal;
+    margin: 1% 4% 1% 4%;
+}
+
+.title2{
+    color: #201909;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 500;
+    font-size: 25px;
+    font-style: normal;
+    margin: 1% 4% 1% 4%;
+}
+
+.title3{
+    color: #201909;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 500;
+    font-size: 18px;
+    font-style: normal;
+    margin: 1% 4% 1% 4%;
+}
+
+/* Assuming you have a styles module or a regular CSS file */
+/* styles.module.css or styles.css */
+
+/* styles.module.css */
+
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    max-width: 400px;
+    justify-content: center;
+}
+
+.inputcontainer {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+  /* Style for labels */
+.inputcontainer label {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+}
+
+  /* Style for text inputs */
+.inputcontainer input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 70px;
+    font-size: 15px;
+    color: black;
+    background-color: #DCCB8E;
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 700;
+}
+
+.message {
+    height: 800px;
+}
+
+.button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: "Inknut Antiqua", serif;
+    color: #201909;
+    font-weight: 700;
+    background-color: #76D583;
+    height: 70px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease-in-out; /* Separate each transition property with a comma */
+}
+
+.button:hover {
+    background-color: #436338;
+    color: white;
+}
+
+@media screen and (max-width: 1000px) {
+    .title2{
+        font-size: 22px;
+    }
+
+    .title3 {
+        font-size: 14px;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .right {
+        max-width: 1000px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .inputcontainer {
+        max-width: 400px;
+    }
+
+    .inputcontainer input {
+        height: 60px;
+        max-width: 400px;
+    }
+
+    .button {
+        height: 60px;
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .title2{
+        font-size: 20px;
+    }
+
+    .title3 {
+        font-size: 11px;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .right {
+        max-width: 700px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .inputcontainer {
+        max-width: 400px;
+    }
+
+    .inputcontainer input {
+        height: 60px;
+        max-width: 400px;
+    }
+
+    .button {
+        height: 60px;
+        max-width: 400px;
+    }
+}

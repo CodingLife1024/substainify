@@ -1,0 +1,37 @@
+.full{
+    height: fit-content;
+    background-color: #F9F6EB;
+}
+
+.header {
+    background-image: url('/headerbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rebeccapurple;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    justify-content: right;
+    padding: 2% 4% 2% 4%;
+    gap: 15px;
+}
+
+.header_item {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.bars {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .header_item {
+        display: none;
+    }
+
+    .bars{
+        display: grid;
+    }
+}
