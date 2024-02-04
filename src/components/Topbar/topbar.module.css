@@ -52,11 +52,11 @@
     display: block;
   }
 
-  .dropdown_content a:hover {background-color: #ddd;}
+.dropdown_content a:hover {background-color: #ddd;}
 
-  .dropdown:hover .dropdown_content {display: block;}
+.dropdown:hover .dropdown_content {display: block;}
 
-  .dropdown:hover .bars {background-color: #3e8e41;}
+.dropdown:hover .bars {background-color: #3e8e41;}
 
 .bars {
     display: none;

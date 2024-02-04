@@ -14,7 +14,15 @@ const Vision = () => {
         </div>
         <div className={styles.slide_container}>
           <div className={styles.bigslide}>
-            <div className={styles.slide} style={{ backgroundImage: 'url(/1.svg)' }}>1
+            <div className={styles.slide} style={{ backgroundImage: 'url(/1.svg)' }}>
+              <div className={styles.slide_content_2}>
+                <p style={{ marginBottom: "5px" }}>The Annual Green Impact Report is a testament to our dedication to making a real difference. This report is a compilation of data, stories, and insights that reflect the strides we've taken in the pursuit of sustainability.</p>
+                <p style={{ marginBottom: "5px" }}>Transparency: The report provides an open and honest account of our performance. We believe in being transparent about our journey towards a greener, more sustainable world.</p>
+                <p style={{ marginBottom: "5px" }}>Accountability: It holds us accountable for the promises we make. The report outlines our progress in achieving various sustainability goals, from reducing carbon footprints to promoting eco-friendly products.</p>
+                <p style={{ marginBottom: "5px" }}>Inspiration: By showcasing our collective positive impact on the environment and society, we aim to inspire our users, partners, and stakeholders. The report highlights the tangible outcomes of choosing eco-friendly products and embracing sustainable practices.</p>
+                <p style={{ marginBottom: "5px" }}>The report is structured to present both the macro and micro perspectives of our impact. We look at the bigger picture, discussing the global environmental and societal issues that Substainify Hub is addressing. Simultaneously, we delve into individual stories and data that showcase the positive changes occurring in the lives of our users.</p>
+                <p style={{ marginBottom: "5px" }}>In a world where the need for change is more pressing than ever, the Annual Green Impact Report serves as a testament to our commitment to drive that change. It shows that by working together, we can create a more sustainable future, one eco-friendly product and one sustainable choice at a time.</p>
+              </div>
             </div>
             <div className={styles.slide} style={{ backgroundImage: 'url(/2.svg)' }}>
               <div className={styles.slide_title} style={{ marginBottom: "20px" }}>Empowering Local Sustainability: Sustainify Hub's Vision for Underdeveloped Countries</div>

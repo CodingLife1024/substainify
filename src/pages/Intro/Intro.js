@@ -12,7 +12,16 @@ const Intro = () => {
           <a href="#dashboard" className={styles.header_item}>Dashboard</a>
           <a href="#vision" className={styles.header_item}>Our Vision</a>
           <a href="#contact" className={styles.header_item}>Contact Us</a>
-          <div className={styles.bar}><FaBars /></div>
+          <div className={styles.dropdown}>
+            <div className={styles.bars}><FaBars size={30} /></div>
+            <div className={styles.dropdown_content}>
+              <a href="#intro" className={styles.header_item}>Home</a>
+              <a href="#mission" className={styles.header_item}>Our Mission</a>
+              <a href="#dashboard" className={styles.header_item}>Dashboard</a>
+              <a href="#vision" className={styles.header_item}>Our Vision</a>
+              <a href="#contact" className={styles.header_item}>Contact Us</a>
+            </div>
+        </div>
         </div>
         <div className={styles.title}>Substainify Hub</div>
         <div className={styles.subtitle}>“Mobilizing Sustainability, Empowering the World”</div>
