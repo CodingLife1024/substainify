@@ -6,7 +6,7 @@
 }
 
 .main {
-    height: calc(100vh - 80px);
+    height: calc(100vh - 70px);
     display: flex;
     flex-direction: row;
     padding: 0% 4% 1% 4% ;

@@ -1,12 +1,13 @@
-import React from 'react'
-import styles from './vision.module.css'
+import React from 'react';
+import styles from './vision.module.css';
+import Topbar from '../../components/Topbar/Topbar';
 
 const Vision = () => {
   return (
     <>
     <div className={styles.full}>
     <div style={{height: "70px"}}></div>
-      {/* <Topbar /> */}
+      <Topbar />
       <div className={styles.main}>
         <div className={styles.title}>
           Our Vision

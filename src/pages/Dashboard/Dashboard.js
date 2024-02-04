@@ -2,12 +2,13 @@
 
 import React from 'react';
 import styles from './dashboard.module.css';
+import Topbar from '../../components/Topbar/Topbar';
 
 const Dashboard = () => {
   return (
     <>
     <div className={styles.full}>
-      {/* <Topbar /> */}
+      <Topbar />
       <div style={{height: "70px"}}></div>
       <div className={styles.main}>
         <div className={styles.title}>
