@@ -7,6 +7,7 @@ const Mission = () => {
     <>
       <div className={styles.full}>
         <Topbar />
+        <div style={{height: "70px"}}></div>
         <div className={styles.main}>
           <div className='left'>
             <div className={styles.title}>

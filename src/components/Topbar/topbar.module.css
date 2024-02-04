@@ -1,6 +1,8 @@
-.full{
+/* topbar.module.css */
+.full {
     height: fit-content;
     background-color: #F9F6EB;
+    transition: background-color 0.3s ease-in-out; /* Add transition for a smooth color change */
 }
 
 .header {
@@ -14,6 +16,7 @@
     justify-content: right;
     padding: 2% 4% 2% 4%;
     gap: 15px;
+    transition: background-color 0.3s ease-in-out; /* Add transition for a smooth color change */
 }
 
 .header_item {
@@ -26,12 +29,20 @@
     display: none;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #F9F6EB; /* Change the background color when sticky */
+}
+
 @media screen and (max-width: 1000px) {
     .header_item {
         display: none;
     }
 
-    .bars{
-        display: grid;
+    .bars {
+        display: flex;
     }
 }

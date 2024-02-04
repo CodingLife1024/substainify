@@ -3,7 +3,6 @@
 import React from 'react';
 import dynamic from 'next/dynamic';  // Import dynamic from next/dynamic
 import styles from './contact.module.css';
-import Topbar from '../../components/Topbar/Topbar';
 
 const Contact = () => {
   const handleSendMessage = () => {
@@ -23,7 +22,8 @@ const Contact = () => {
   return (
     <>
       <div className={styles.full}>
-        <Topbar />
+        {/* <Topbar /> */}
+        <div style={{height: "70px"}}></div>
         <div className={styles.main}>
           <div className='left'>
             <div className={styles.title}>
