@@ -6,7 +6,7 @@ const Vision = () => {
   return (
     <>
     <div className={styles.full}>
-    <div style={{height: "70px"}}></div>
+      <div style={{height: "70px"}}></div>
       <Topbar />
       <div className={styles.main}>
         <div className={styles.title}>

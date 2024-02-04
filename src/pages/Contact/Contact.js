@@ -23,8 +23,8 @@ const Contact = () => {
   return (
     <>
       <div className={styles.full}>
-        <Topbar />
         <div style={{height: "70px"}}></div>
+        <Topbar />
         <div className={styles.main}>
           <div className='left'>
             <div className={styles.title}>
