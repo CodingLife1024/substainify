@@ -4,8 +4,10 @@ import React from 'react';
 import dynamic from 'next/dynamic';  // Import dynamic from next/dynamic
 import styles from './contact.module.css';
 import Topbar from '../../components/Topbar/Topbar';
+import { FaInstagram, FaLinkedin, FaTwitter} from 'react-icons/fa';
 
 const Contact = () => {
+  const style = { color: "green", fontSize: "50px"}
   const handleSendMessage = () => {
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
@@ -60,9 +62,12 @@ const Contact = () => {
             </div>
 
             {/* Use the dynamic component here */}
-            <DynamicButton onClick={handleSendMessage}>
-              Send Message
-            </DynamicButton>
+            <DynamicButton onClick={handleSendMessage}>Send Message</DynamicButton>
+            <div className={styles.social}>
+              <FaLinkedin style={style} />
+              <FaInstagram style={style} />
+              <FaTwitter style={style} />
+            </div>
           </div>
         </div>
       </div>
