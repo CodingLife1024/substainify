@@ -1,13 +1,12 @@
 "use client";
 
 import React from 'react';
-import dynamic from 'next/dynamic';  // Import dynamic from next/dynamic
+import dynamic from 'next/dynamic';
 import styles from './contact.module.css';
 import Topbar from '../../components/Topbar/Topbar';
-import { FaInstagram, FaLinkedin, FaTwitter} from 'react-icons/fa';
+import { FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 const Contact = () => {
-  const style = { color: "green", fontSize: "50px"}
   const handleSendMessage = () => {
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
@@ -19,14 +18,12 @@ const Contact = () => {
     window.location.href = mailtoLink;
   };
 
-  // Wrap the part of the component with interactivity in dynamic
   const DynamicButton = dynamic(() => import('./DynamicButton'), { ssr: false });
 
   return (
     <>
-
       <div className={styles.full}>
-        <div style={{height: "70px"}}></div>
+        <div className={styles.topMargin}></div>
         <Topbar />
         <div className={styles.main}>
           <div className=''>
@@ -37,37 +34,36 @@ const Contact = () => {
               Let's Work Together
             </div>
             <div className={styles.title3}>
-              Leave us a message, we’ll get back as soon as we can!
+              Leave us a message, we will get back as soon as we can!
             </div>
           </div>
 
           <div className={styles.right}>
             <div className={styles.inputcontainer}>
               <label htmlFor="name"></label>
-              <input type="text" id="name" name={styles.name} placeholder="Name:" />
+              <input type="text" id="name" name="name" placeholder="Name" />
             </div>
 
             <div className={styles.inputcontainer}>
               <label htmlFor="email"></label>
-              <input type="text" id="email" name={styles.email} placeholder="Email:" />
+              <input type="text" id="email" name="email" placeholder="Email" />
             </div>
 
             <div className={styles.inputcontainer}>
               <label htmlFor="company"></label>
-              <input type="text" id="company" name={styles.company} placeholder="Company:" />
+              <input type="text" id="company" name="company" placeholder="Company" />
             </div>
 
             <div className={styles.inputcontainer}>
               <label htmlFor="message"></label>
-              <input type="text" id="message" name={styles.message} placeholder="Message:" />
+              <input type="text" id="message" name="message" placeholder="Message" />
             </div>
 
-            {/* Use the dynamic component here */}
             <DynamicButton onClick={handleSendMessage}>Send Message</DynamicButton>
             <div className={styles.social}>
-              <FaLinkedin style={style} />
-              <FaInstagram style={style} />
-              <FaTwitter style={style} />
+              <FaLinkedin />
+              <FaInstagram />
+              <FaTwitter />
             </div>
           </div>
         </div>

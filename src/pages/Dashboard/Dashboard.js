@@ -34,13 +34,13 @@ const Dashboard = () => {
             <div className={styles.slide} style={{ backgroundImage: 'url(/3.svg)' }}>
               <div className={styles.slide_title} style={{ marginBottom: "20px" }}>For Consumers: </div>
                 <div className={styles.slide_content_2}>
-                  <p style={{ marginBottom: "10px" }}>Empowering Informed Choices: For consumers, the Sustainability Dashboard is a valuable tool for making informed choices. Each product's environmental impact is clearly displayed, allowing consumers to assess its contribution to carbon footprint reduction, waste reduction, and the use of eco-friendly materials.</p>
+                  <p style={{ marginBottom: "10px" }}>Empowering Informed Choices: For consumers, the Sustainability Dashboard is a valuable tool for making informed choices. Each product&apos;s environmental impact is clearly displayed, allowing consumers to assess its contribution to carbon footprint reduction, waste reduction, and the use of eco-friendly materials.</p>
                   <p style={{ marginBottom: "10px" }}>Personal Carbon Footprint Reduction: The dashboard goes a step further by enabling consumers to track their personal carbon footprint. By inputting data on their lifestyle and consumption habits, individuals can see the real-world impact of their choices and make adjustments as needed.</p>
                   <p style={{ marginBottom: "10px" }}>Progress Over Time: Over time, consumers can see how their purchasing decisions have contributed to the reduction of carbon emissions and waste. This feature offers a sense of achievement and motivates users to continue supporting sustainable products.</p>
                 </div>
             </div>
             <div className={styles.slide} style={{ backgroundImage: 'url(/4.svg)' }}>
-              <div className={styles.slide_title} style={{ marginBottom: "30px" }}>Sustanify Hub's Annual Green Impact Report</div>
+              <div className={styles.slide_title} style={{ marginBottom: "30px" }}>Sustanify Hub&apos;s Annual Green Impact Report</div>
               <div className={styles.slide_content_1}>
                 <p>At Sustanify Hub, we believe that transparency and accountability are fundamental to achieving our mission of promoting sustainable development and eco-friendly products. One of the ways we demonstrate this commitment is through our Annual Green Impact Report, a comprehensive document that not only showcases our achievements but also highlights the collective positive impact our platform and users have made on the environment and society.</p>
               </div>
