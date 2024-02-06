@@ -1,12 +1,15 @@
 // next.config.mjs
 const nextConfig = {
-    // Add the following line to enable static HTML export
-    exportPathMap: function () {
-      return {
+    // Add the following function to generate static export parameters
+    generateStaticParams: async () => {
+      // Define your static paths here
+      const paths = {
         '/': { page: '/' },
         // Add more routes as needed
       };
+
+      return paths;
     },
   };
 
-export default nextConfig;
+  export { nextConfig };
