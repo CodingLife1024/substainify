@@ -12,4 +12,4 @@ const nextConfig = {
     },
   };
 
-  export { nextConfig };
+export { nextConfig };
