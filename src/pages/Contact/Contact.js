@@ -24,6 +24,7 @@ const Contact = () => {
 
   return (
     <>
+    
       <div className={styles.full}>
         <div style={{height: "70px"}}></div>
         <Topbar />
