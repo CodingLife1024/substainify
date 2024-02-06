@@ -31,10 +31,10 @@ const Contact = () => {
               Contact Us
             </div>
             <div className={styles.title2}>
-              Let's Work Together
+              Let&apos;s Work Together
             </div>
             <div className={styles.title3}>
-              Leave us a message, we will get back as soon as we can!
+              Leave us a message, we&apos;ll get back as soon as we can!
             </div>
           </div>
 

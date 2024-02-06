@@ -16,7 +16,7 @@ const Vision = () => {
           <div className={styles.bigslide}>
             <div className={styles.slide} style={{ backgroundImage: 'url(/1.svg)' }}>
               <div className={styles.slide_content_2}>
-                <p style={{ marginBottom: "5px" }}>The Annual Green Impact Report is a testament to our dedication to making a real difference. This report is a compilation of data, stories, and insights that reflect the strides we've taken in the pursuit of sustainability.</p>
+                <p style={{ marginBottom: "5px" }}>The Annual Green Impact Report is a testament to our dedication to making a real difference. This report is a compilation of data, stories, and insights that reflect the strides we&apos;ve taken in the pursuit of sustainability.</p>
                 <p style={{ marginBottom: "5px" }}>Transparency: The report provides an open and honest account of our performance. We believe in being transparent about our journey towards a greener, more sustainable world.</p>
                 <p style={{ marginBottom: "5px" }}>Accountability: It holds us accountable for the promises we make. The report outlines our progress in achieving various sustainability goals, from reducing carbon footprints to promoting eco-friendly products.</p>
                 <p style={{ marginBottom: "5px" }}>Inspiration: By showcasing our collective positive impact on the environment and society, we aim to inspire our users, partners, and stakeholders. The report highlights the tangible outcomes of choosing eco-friendly products and embracing sustainable practices.</p>
@@ -25,9 +25,9 @@ const Vision = () => {
               </div>
             </div>
             <div className={styles.slide} style={{ backgroundImage: 'url(/2.svg)' }}>
-              <div className={styles.slide_title} style={{ marginBottom: "20px" }}>Empowering Local Sustainability: Sustainify Hub's Vision for Underdeveloped Countries</div>
+              <div className={styles.slide_title} style={{ marginBottom: "20px" }}>Empowering Local Sustainability: Sustainify Hub&apos;s Vision for Underdeveloped Countries</div>
               <div className={styles.slide_content_1}>
-                <p>Sustanify Hub's commitment to sustainability extends beyond merely offering eco-friendly products; it encompasses a comprehensive approach that seeks to revolutionize supply chains. In this section, we introduce an innovative idea – setting up subsidiaries in underdeveloped countries. We will also discuss the significant benefits of a franchise model for both sustainability and affordability.</p>
+                <p>Sustanify Hub&apos;s commitment to sustainability extends beyond merely offering eco-friendly products; it encompasses a comprehensive approach that seeks to revolutionize supply chains. In this section, we introduce an innovative idea – setting up subsidiaries in underdeveloped countries. We will also discuss the significant benefits of a franchise model for both sustainability and affordability.</p>
               </div>
             </div>
             <div className={styles.slide} style={{ backgroundImage: 'url(/3.svg)' }}>
@@ -59,13 +59,13 @@ const Vision = () => {
               </div>
             </div>
             <div className={styles.slide} style={{ backgroundImage: 'url(/6.svg)' }}>
-              <div className={styles.slide_title} style={{ marginBottom: "10px" }}>Community Engagement Campaign: "Sustainify Together"</div>
+              <div className={styles.slide_title} style={{ marginBottom: "10px" }}>Community Engagement Campaign: &quot;Sustainify Together&quot;</div>
               <div className={styles.slide_content_2}>
-                <p style={{ marginBottom: "10px" }}>The "Sustainify Together" campaign is designed to engage and sensitize our intended target segments to the The Sustainify Hub project. By fostering a sense of community and shared responsibility, we aim to inspire individuals and businesses to embrace sustainability, affordability, and accessibility. This campaign leverages digital and grassroots efforts to create a powerful movement for positive change.</p>
+                <p style={{ marginBottom: "10px" }}>The &quot;Sustainify Together&quot; campaign is designed to engage and sensitize our intended target segments to the The Sustainify Hub project. By fostering a sense of community and shared responsibility, we aim to inspire individuals and businesses to embrace sustainability, affordability, and accessibility. This campaign leverages digital and grassroots efforts to create a powerful movement for positive change.</p>
                 <p style={{ marginBottom: "10px" }}>Partnerships with Schools and Universities:</p>
                 <ul className={styles.ull}>
                   <li>Implementing educational programs in schools and universities to instill sustainable values in the younger generation.</li>
-                  <li> Encouraging students to explore sustainable projects and engage with The Sustainify Hub's initiatives.</li>
+                  <li> Encouraging students to explore sustainable projects and engage with The Sustainify Hub&apos;s initiatives.</li>
                 </ul>
                 <p style={{ marginBottom: "10px" }}>Business Partnerships:</p>
                 <ul className={styles.ull}>
